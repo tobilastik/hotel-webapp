@@ -18,8 +18,6 @@ export class MapContainer extends Component {
   }
 }
 
-MapContainer = GoogleApiWrapper (
-  {
-    //   apiKey: 'AIzaSyB0ubXNmOAITCpc8jadzKWi-Yf6f1ZY5x4',
-  }
-) (MapContainer);
+MapContainer = GoogleApiWrapper ({
+  apiKey: '',
+}) (MapContainer);
