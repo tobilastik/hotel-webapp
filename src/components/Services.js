@@ -8,25 +8,19 @@ export default class Services extends Component {
       {
         icon: <FaCocktail />,
         title: 'Relaxing Sceneries',
-        info: 'Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum',
-      },
-
-      {
-        icon: <FaHiking />,
-        title: 'free hiking',
-        info: 'Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum',
+        info: '  Hotel De Lapel radiates an opulent charm of contemporary and traditional warmth of Nigerian hospitality.',
       },
 
       {
         icon: <FaShuttleVan />,
         title: 'Amazing Amenities',
-        info: 'Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum',
+        info: '  Hotel De Lapel is a multi star best-in-class hospitality experience that will surely blow your mind.',
       },
 
       {
         icon: <FaBeer />,
         title: 'Perfect Hotel',
-        info: 'Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum',
+        info: 'The Hotel De Lapel has the friendliest and most relaxing hotel accommodations you need.',
       },
     ],
   };

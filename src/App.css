@@ -220,6 +220,13 @@ h6 {
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
+.section-title h6 {
+  font-size: 0.8rem;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 1rem;
+  color: #646262;
+}
+
 .section-title div {
   width: 5rem;
   height: 5px;
