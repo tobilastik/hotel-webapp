@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
@@ -87,7 +88,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 /* end of globals */
-/* Navbar */
+/* bar */
 .navbar {
   position: fixed;
   top: 0;
@@ -519,3 +520,89 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+
+/*Tour Css*/
+.tourlist {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.tour {
+  background-color: var(--mainGrey);
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+}
+.img-style {
+  width: 100%;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  display: block;
+}
+
+.tour-img-container {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  display: block;
+  top: 5%;
+  right: 5%;
+  color: rgb(46, 114, 46);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+
+.tour-img-container:hover .close-btn {
+  opacity: 1;
+}
+
+.tour-info {
+  padding: 1rem 0.5rem;
+}
+
+.tour-info h3 {
+  text-transform: uppercase;
+  color: rgb(46, 114, 46);
+}
+
+.tour-info h4 {
+  text-transform: capitalize;
+  color: black;
+  margin: 0.2rem 0 0.6rem 0;
+}
+
+.tour-info h5 {
+  text-transform: capitalize;
+}
+
+.tour-info h5 span {
+  color: rgb(46, 114, 46);
+  margin: 0.5rem;
+  font-size: 0.2rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .tourlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .tourlist {
+    grid-template-columns: repeat(3, 1fr);
+    width: 85vw;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .tourlist {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

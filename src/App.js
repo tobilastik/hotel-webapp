@@ -4,6 +4,7 @@ import Home from './screen/Home';
 import Error from './screen/Error';
 import SingleRoom from './screen/SingleRoom';
 import Rooms from './screen/Rooms';
+import Tour from './screen/Tour';
 import {Route, Switch} from 'react-router-dom';
 import Navbar from './components/Navbar';
 
@@ -15,6 +16,7 @@ function App () {
         <Route exact path="/" component={Home} />
         <Route path="/rooms" component={Rooms} />
         <Route path="/rooms/:slug" component={SingleRoom} />
+        <Route path="/tour" component={Tour} />
         <Route component={Error} />
       </Switch>
 

@@ -9,12 +9,19 @@ export default class SingleRoom extends Component {
   constructor (props) {
     super (props);
 
-    this.state = {};
+    // this.state = {
+    //   slug: this.props.match.params.slug,
+    //   defaultBcg,
+    // };
   }
 
   componentDidMount () {}
 
   render () {
+    // const {getRoom} = this.context;
+    // const room = this.getRoom (this.state.slug);
+    // console.log (room);
+
     return (
       <div>
         This is Single room page
