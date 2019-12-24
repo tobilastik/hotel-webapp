@@ -550,7 +550,7 @@ h6 {
   top: 5%;
   right: 5%;
   color: rgb(46, 114, 46);
-  font-size: 1rem;
+  font-size: 2rem;
   cursor: pointer;
   transition: all 0.3s linear;
   opacity: 0;
@@ -582,7 +582,7 @@ h6 {
 .tour-info h5 span {
   color: rgb(46, 114, 46);
   margin: 0.5rem;
-  font-size: 0.2rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 

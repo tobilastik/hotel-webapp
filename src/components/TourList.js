@@ -27,14 +27,22 @@ export default class TourList extends Component {
             }}
             className="close-btn"
           >
-            <h2>X</h2>
+            <i className="fa fa-times-circle" />
+
           </span>
         </div>
 
         <div className="tour-info">
           <h3>{city}</h3>
           <h4>{name}</h4>
-          <h5>info <span onClick={this.handleInfo}>toggle</span></h5>
+          <h5>
+            info <span onClick={this.handleInfo}>
+              <span>
+                <i className="fa fa-caret-down" />
+
+              </span>
+            </span>
+          </h5>
 
           {this.state.showInfo && <p>{info} </p>}
         </div>
